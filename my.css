@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+#h1,#h2,#h3,#h4{color:#6495ED;}
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 20px;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.education-item, .project-item {
+    margin-bottom: 10px;
+}
+
+.education-item h3, .project-item h3 {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+ul li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 1px;
+    border-radius: 5px;
+    border-width: 57px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
